@@ -1,0 +1,11 @@
+venv/
+hist/
+__pycache__/
+*.pyc
+*.csv
+*.tar
+*.tar.gz
+data/
+uploads/
+*.html
+!templates/*.html
