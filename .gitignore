@@ -3,8 +3,9 @@ hist/
 __pycache__/
 *.pyc
 *.csv
-*.html
 *.tar
 *.tar.gz
 data/
 uploads/
+*.html
+!templates/*.html
