@@ -1,0 +1,12 @@
+services:
+  kdj-scanner:
+    build: .
+    container_name: kdj-scanner
+    ports:
+      - "8080:5000"
+    volumes:
+      - .:/app/data
+    environment:
+      - HOST=0.0.0.0
+      - PORT=5000
+    restart: unless-stopped
